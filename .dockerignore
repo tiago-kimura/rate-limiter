@@ -1,0 +1,26 @@
+# Build artifacts
+/main
+/rate-limiter
+
+# Test coverage
+*.out
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go vendor directory
+vendor/
+
+# Docker volumes
+redis_data/
